@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"QvaY":[function(require,module,exports) {
 "use strict";var e=t(require("./hex.js"));function t(e){return e&&e.__esModule?e:{default:e}}const n=document.querySelector("body"),o=document.querySelector('[data-action="start"]'),r=document.querySelector('[data-action="stop"]');let a=e.default.length,c=(e,t)=>Math.floor(Math.random()*(t-e+1)+e),l=null;function u(){l=setInterval(d,1e3)}function d(){let t=c(1,a);n.style.backgroundColor=e.default[t]}function i(){clearInterval(l)}o.addEventListener("click",u),r.addEventListener("click",i);
 },{"./hex.js":"NinI"}]},{},["QvaY"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/js.11a819d5.js.map
+//# sourceMappingURL=/goit-js-hw-11-color-switch/js.11a819d5.js.map
