@@ -17,7 +17,7 @@ function onStartBtnClik() {
 }
 
 function chengeBodyColor() {
-    let randomColor = randomIntegerFromInterval(1, COLORS_LENGTH)
+    let randomColor = randomIntegerFromInterval(0, COLORS_LENGTH)
     body.style.backgroundColor = colors[randomColor];
 }
 
