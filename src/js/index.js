@@ -1,4 +1,4 @@
-const colors= [
+const colors = [
     '#FFFFFF',
     '#2196F3',
     '#4CAF50',
